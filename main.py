@@ -28,7 +28,7 @@ cogs = [
     'cogs.mod',
     'cogs.tickets',
     'cogs.social',
-    'cogs.utilidades'  # Novo cog adicionado
+    'cogs.utilidades'
 ]
 
 @bot.event
