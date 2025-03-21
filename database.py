@@ -5,7 +5,7 @@ import os
 logger = logging.getLogger(__name__)
 
 class Database:
-    def __init__(self, db_name=os.getenv('DATABASE_NAME', 'bot_data.db')):  # Corrigido: __init__
+    def __init__(self, db_name=os.getenv('DATABASE_NAME', 'bot_data.db')):
         self.conn = sqlite3.connect(db_name)
         self.cursor = self.conn.cursor()
         self.setup_tables()
