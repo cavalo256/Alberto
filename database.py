@@ -2,7 +2,7 @@ import sqlite3
 import logging
 import os
 
-logger = logging.getLogger(__name__)  # Corrigido: __name__
+logger = logging.getLogger(__name__)
 
 class Database:
     def __init__(self, db_name=os.getenv('DATABASE_NAME', 'bot_data.db')):  # Corrigido: __init__
