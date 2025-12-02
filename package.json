@@ -1,0 +1,14 @@
+{
+  "name": "alberto-bot",
+  "version": "1.0.0",
+  "description": "O bot mais brabo do servidor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1"
+  }
+}
